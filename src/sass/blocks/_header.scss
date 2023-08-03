@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $gray;
+  padding: 7px 20px;
+  border-bottom: 2px solid #ccc;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 460px) {
+  .header {
+    display: block;
+  }
+}

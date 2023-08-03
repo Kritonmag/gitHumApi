@@ -1,0 +1,32 @@
+html,
+body {
+  font-size: 13px;
+  font-family: sans-serif;
+  color: $black;
+}
+
+.container {
+  max-width: 1020px;
+  height: 550px;
+  margin: 0 auto;
+  margin-top: 25px;
+  border-bottom: 1px solid $gray;
+  border-left: 1px solid $gray;
+  border-right: 1px solid $gray;
+}
+
+.none {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+@media (max-width: 460px) {
+
+  html,
+  body {
+    font-size: 13px;
+  }
+}

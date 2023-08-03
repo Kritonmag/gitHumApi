@@ -1,0 +1,21 @@
+.pagination ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.page__item {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: $yellow;
+  cursor: pointer;
+}
+
+.page__selected {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: $purple;
+  cursor: pointer;
+}

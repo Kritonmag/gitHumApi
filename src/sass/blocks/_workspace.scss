@@ -1,0 +1,17 @@
+.workspace {
+  padding: 5px 25px;
+  flex: 1;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.workspace img {
+  max-width: 350px;
+  min-height: 350px;
+}
+
+@media (max-width: 460px) {
+  .workspace {
+    padding: 5px 15px;
+  }
+}
